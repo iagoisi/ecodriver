@@ -357,12 +357,12 @@ header {
 }
 
 .section_02 .text_section_02 h2 {
-  font-size: 3.4em;
+  font-size: 3em;
   line-height: 1.3em;
 }
 
 .section_02 .text_section_02 p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   max-width: 400px;
   margin: .2em 0 2em 0;
 }
@@ -394,7 +394,7 @@ header {
 }
 
 .section_03 .text_section_03 h2 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: right;
 }
 
@@ -421,36 +421,27 @@ header {
   display: flex;
   width: 90%;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.section_04 lottie-player  {
+  display: flex;
+  margin-top: -1.2em;
+  align-self: center;
 }
 
 .section_04 .text_section_04 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-self: center;
   justify-content: center;
-  margin: 2em 0 10em 0;
+  margin: 2em 0 5em 0;
 }
-
-.section_04 .img {
-  width: 100%;
-  display: flex;
-  /* padding: -300em; */
-  justify-content: center;
-  align-items: center;
-}
-
-.section_04 lottie-player  {
-  display: flex;
-  margin-top: -1.2em;
-}
-
-
 
 .section_04 .text_section_04 h2 {
   display: flex;
-  font-size: 2.2em;
+  font-size: 3em;
   margin: -1.5em 0 .5em 0;
   justify-content: center;
   text-align: center;
@@ -459,13 +450,134 @@ header {
 }
 
 .section_04 .text_section_04 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   align-self: center;
-  max-width: 70%;
-  /* max-width: 300px; */
+  max-width: 60%;
 }
 
+/* ----------------------------------- SECTION_04  -  THECITYS -----------------------------------*/
+
+.theCitys {
+  display: flex;
+  margin-bottom: 4em;
+}
+
+.theCitys .listCitys {
+  width: 100%;
+}
+
+
+.theCitys .listCitys li {
+  margin-bottom: 3em;
+  border: solid 2px #004821;
+  padding: 2em;
+}
+
+.theCitys .listCitys .city h2 {
+  font-size: 2.6em;
+  margin-top: -.5em;
+  margin-bottom: .7em;
+}
+
+
+.theCitys .listCitys .cardCity {
+  display: flex;
+  justify-content: space-between;
+  width: 68%;
+}
+
+.theCitys .listCitys .cardCity img {
+  width: 40%;
+  margin-right: 2em;
+}
+
+
+.theCitys .listCitys .cardCity .textCity {
+  text-align: left;
+  width: 100%;
+}
+
+.theCitys .listCitys .city .cardButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.theCitys .listCitys .city .cardButton a {
+  padding: 1em;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  font-weight: bold;
+  color: #FFF;
+  background: #2EA641;
+  text-align: center;
+}
+
+
+.theCitys .listCitys .city .cardButton a:hover {
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.theCitys .listCitys .cardCity {
+  align-items: center;
+}
+
+@media (max-width: 890px) {
+
+  .theCitys .listCitys li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3em;
+    border: solid 2px #004821;
+    padding: 2em;
+  }
+
+  .theCitys .listCitys .city .cardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+
+  .theCitys .listCitys .cardCity {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .theCitys .listCitys .cardCity {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    flex-direction: column;
+  }
+
+
+  .theCitys .listCitys .cardCity img {
+    width: 70%;
+    margin-right: 0;
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  .theCitys .listCitys .cardCity .textCity {
+    text-align: center;
+  }
+
+
+}
 
 /* ----------------------------------- Footer -----------------------------------*/
 
