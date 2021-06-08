@@ -175,7 +175,6 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 50px;
-  /* padding-bottom: 2rem; */
 }
 
 .h1 h1 {
@@ -185,7 +184,6 @@ header {
   align-self: flex-start;
   font-weight: normal;
   z-index: 2;
-  /* margin-bottom: 4rem; */
 }
 
 .h1 h1 .smallText {
