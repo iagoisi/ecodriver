@@ -167,7 +167,7 @@ header {
 
 .h1 {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   z-index: 2;
   background: #F1FBFB;
   display: flex;
@@ -179,7 +179,6 @@ header {
 
 .h1 h1 {
   max-width: 50%;
-  /* margin-left: 2rem; */
   padding: 2em;
   align-self: flex-start;
   font-weight: normal;
@@ -187,25 +186,25 @@ header {
 }
 
 .h1 h1 .smallText {
-  font-size: 1.375em;
+  font-size: 1.2em;
 }
 
 .h1 h1 .bigText {
   font-weight: bold;
-  font-size: 2.3em;
+  font-size: 2.1em;
 }
 
 .introContainer .img {
   display: flex;
-  background: tomato;
+  background: #1A9452;
   justify-content: center;
-  width: 55vw;
+  width: 60vw;
 }
 
 .driver {
   object-fit: cover;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   margin-top: 100px;
 
 }
@@ -213,7 +212,7 @@ header {
 .introContainer a {
   /* margin-top: -100px; */
   margin-right: -5em;
-  margin-bottom: -5em;
+  /* margin-bottom: -5em; */
   width: 226px;
   height: 237px;
   z-index: 2;
