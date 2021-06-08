@@ -180,8 +180,7 @@ header {
   max-width: 80%;
   padding-left: 3em;
   align-self: flex-start;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 100px auto 50px auto;
   font-weight: normal;
   z-index: 2;
 }
@@ -212,7 +211,7 @@ header {
 .introContainer a {
   margin-right: -6rem;
   align-self: flex-end;
-  margin-top: -2rem;
+  margin-top: -4rem;
   width: 226px;
   height: 237px;
   z-index: 2;
