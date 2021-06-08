@@ -386,7 +386,7 @@ header {
 .schadule_section_03 {
   display: flex;
   width: 90%;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .section_03 .text_section_03 {
@@ -396,7 +396,7 @@ header {
 }
 
 .section_03 img {
-  width: 45%;
+  width: 40%;
 }
 
 .section_03 .text_section_03 h2 {
@@ -430,10 +430,10 @@ header {
   flex-direction: column;
 }
 
-.section_04 lottie-player  {
+.section_04 img  {
   display: flex;
-  margin-top: -1.2em;
   align-self: center;
+  margin-top: 2rem;
 }
 
 .section_04 .text_section_04 {
@@ -449,7 +449,7 @@ header {
 .section_04 .text_section_04 h2 {
   display: flex;
   font-size: 3em;
-  margin: -1.5em 0 .5em 0;
+  margin: 1rem 0 .5em 0;
   justify-content: center;
   text-align: center;
   line-height: 2em;
@@ -457,27 +457,38 @@ header {
 }
 
 .section_04 .text_section_04 p {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
   align-self: center;
-  max-width: 60%;
+  max-width: 50%;
+  margin-bottom: 4rem;
 }
 
-/* ----------------------------------- SECTION_04  -  THECITYS -----------------------------------*/
+@media (max-width: 900px) {
+  .section_04 .text_section_04 p {
+    max-width: 90%;
+  }
+}
+
+/* ----------------------------------- SECTION_04  -  THE CITYS -----------------------------------*/
 
 
 
 .theCitys {
-  display: flex;
   margin-bottom: 4em;
 }
 
 .theCitys .listCitys {
+  display: flex;
+  gap: 4rem;
   width: 100%;
 }
 
 
 .theCitys .listCitys li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 3em;
   border: solid 2px #004821;
   padding: 2em;
@@ -486,32 +497,30 @@ header {
 .theCitys .listCitys .city h2 {
   font-size: 2.6em;
   margin-top: -.5em;
-  margin-bottom: .7em;
 }
 
 
 .theCitys .listCitys .cardCity {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-between;
-  width: 68%;
+  width: 80%;
+  margin-bottom: 2rem;
 }
+
 
 .theCitys .listCitys .cardCity img {
-  width: 40%;
-  margin-right: 2em;
+  width: 20%;
+  margin-bottom: 1rem;
 }
 
-
-.theCitys .listCitys .cardCity .textCity {
-  text-align: left;
-  width: 100%;
-}
 
 .theCitys .listCitys .city .cardButton {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 
 }
 
