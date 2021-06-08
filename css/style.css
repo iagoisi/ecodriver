@@ -168,7 +168,7 @@ header {
 
 .h1 {
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   z-index: 2;
   background: #F1FBFB;
   display: flex;
@@ -178,7 +178,7 @@ header {
 
 .h1 h1 {
   max-width: 80%;
-  padding-left: 3em;
+  padding-left: 1em;
   align-self: flex-start;
   margin: 100px auto 50px auto;
   font-weight: normal;
@@ -211,7 +211,7 @@ header {
 .introContainer a {
   margin-right: -6rem;
   align-self: flex-end;
-  margin-top: -4rem;
+  margin-top: -2rem;
   width: 226px;
   height: 237px;
   z-index: 2;
